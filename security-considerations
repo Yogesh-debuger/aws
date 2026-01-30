@@ -1,0 +1,6 @@
+
+## Security Considerations
+- SSH access restricted using key-based authentication only.
+- Security groups follow the principle of least privilege.
+- Private subnet resources are isolated from direct internet access.
+- IAM roles were used to avoid hardcoded credentials.
